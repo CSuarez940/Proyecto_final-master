@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.html, body {
+height: 100%;
+}
+
+@font-face{
+    font-family: BarlowCondensed;
+    src: url(BarlowCondensed-Regular.ttf );
+}
+
+@font-face {
+    font-family: CodaCaption;
+    src: url(CodaCaption-ExtraBold.ttf);
+} 
+
+header {
+    font-family: BarlowCondensed;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+.ancho {
+    width: 80%;
+    height: 70px;
+    background-color: black;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    background-color: black;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    background-color: black;
+    float: left;
+    padding-top: 24px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.navbar-nav {
+	background-color: black;
+}
+
+
+nav ul li{
+    display: inline;  
+}
+
+p {
+    font-family: BarlowCondensed;
+}
+
+h5 {
+    font-family: CodaCaption;
+    background-color: black;
+    color: snow;
+    
+}
+
+h1 {
+    font-family: CodaCaption;
+}
+
+.footer {
+    background-color: black;
+    width: 70%;
+    height: 70px;
+     float: left;
+    padding-top: 24px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
